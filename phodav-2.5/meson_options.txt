@@ -1,0 +1,20 @@
+option('gtk_doc',
+       type : 'feature',
+       description : 'Generate API documentation with gtk-doc')
+
+option('avahi',
+       type : 'feature',
+       description : 'Build with avahi/mdns')
+
+option('systemd',
+       type : 'feature',
+       description : 'Install systemd units/configuration')
+
+option('udev',
+       type : 'feature',
+       description : 'Install udev rules')
+
+option('build-id',
+       type : 'integer',
+       value : 0,
+       description : 'Build ID')
